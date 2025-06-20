@@ -1,0 +1,39 @@
+1. What Each HTML Element Does
+
+- <html>: This is the root element that wraps all other HTML content.
+- <head>: Contains metadata about the webpage like the title and links to stylesheets.
+- <title>: Sets the title of the webpage that appears on the browser tab.
+- <body>: Holds everything that is visible on the webpage, like text, images, and links.
+- <nav>: This tag defines the navigation bar. It helps users move around the site easily.
+- <section>: Groups related content together, which helps organize the layout better.
+- <form>: This is used to collect user input.
+- <label>: Gives a name to each form input, making it easier to understand.
+- <input>: Allows users to type in or select data. I used different types for different kinds of information.
+- <textarea>: A bigger text box for users to type more detailed answers.
+- <button>: Used to submit the form.
+- <br>: break element represents line break
+-<li>: The li element represents a list item in unordered way.
+-<ol>: Ordered List element represents a list of items in ordered way.
+-<link>: The link element allows authors to link their document to other resources.
+-<img>: The image element represents an image.
+-<table>: The table element represents data with more than one dimesnssion in form of table.
+-<th>: The th element represents a header cell in a table.
+-<pre>: The pre element represents a block of preformatted text.
+-<a>: Anchor tag , If the a element has an href attribute, then it represents a hyperlink (a hypertext anchor) labeled by its contents
+-<label>: The label element represents a caption in a user interface.
+-<option>: The option element represents an option in a select element or as part of a list of suggestions in a datalist element.
+
+
+
+2. Why I Chose Specific Input Types
+
+- type="text": I used this for names and short answers because it’s best for single-line input.
+- type="email": This checks if the email is in the correct format, which helps with validation.
+- type="password": Hides what the user types in for privacy and security.
+- type="radio": Great for selecting only one option from a few choices, like a multiple-choice question.
+- type="checkbox": Lets users select multiple options at once, like selecting interests or hobbies.
+- type="submit": This was used to create the button that sends the form data.
+
+3. How My Navigation Structure Works
+
+We use a <nav> element inside the <header> to organize the main links. Each link uses an <a> tag and either points to different sections of the page using #section-id or links to other pages. This makes it easy for users to find what they need quickly without scrolling too much. The navigation is simple and consistent across all pages.
